@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ali Ather Cosmetics</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="../style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/21a0675e52.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <h4 class="title ml-4 pt-2"><b> Ali Ather Cosmetics</b></h4>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+            <ul class="navbar-nav  ml-auto mr-5 mt-2 mt-lg-0">
+
+                <li class="nav-item active nav-links mr-3">
+                    <a class="nav-link active" href="../index.html">Home </a>
+                </li>
+                <li class="nav-item active nav-links mr-3">
+                    <a class="nav-link " href="../owner.html">About </a>
+                </li>
+
+
+                <li class="nav-item active nav-links mr-3">
+                    <a class="nav-link" href="../products.html">Product</a>
+                </li>
+                <li class="nav-item dropdown nav-links mr-3">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Category</a>
+                    <div class="dropdown-menu mt-2" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="../category/makeup.html"><b>Make Up</b></a>
+                        <a class="dropdown-item" href="../category/Electronics.html"><b>Electronics</b></a>
+                        <a class="dropdown-item" href="../category/Facial.html"><b>Facial</b></a>
+                        <a class="dropdown-item" href="../category/BabyProducts.html"><b>Baby Products</b></a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown nav-links mr-3">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Brands</a>
+                    <div class="dropdown-menu mt-2" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="../brands/glamourousFace.html"><b>Glamourous Face</b></a>
+                        <a class="dropdown-item" href="../brands/FaceIt.html"><b>Face It</b></a>
+                        <a class="dropdown-item" href="../brands/christine.html"><b>Christine</b></a>
+                        <a class="dropdown-item" href="../brands/more.html"><b>More</b></a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown nav-links mr-3">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Add<i class="fa fa-plus ml-1"></i></a>
+                    <div class="dropdown-menu mt-2" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Customer.html"><b>Customer</b></a>
+                        <a class="dropdown-item" href="Category.html"><b>Category</b></a>
+                        <a class="dropdown-item" href="Product.html"><b>Product</b></a>
+                    </div>
+                </li>
+
+                <li class="nav-item active nav-links mr-2">
+                    <a class="nav-link" href="#"><i class="fas fa-user"></i> </a>
+                </li>
+            </ul>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+
+        </div>
+    </nav>
+
+    <h1 class="text-center box container bg-light shadow mt-5 "><b> New Product</b></h1>
+    <form class="container  mt-2">
+            <div class="form-group">
+              <label for="Name"><b>Name</b></label>
+              <input type="text" class="form-control col-6" id="Name" aria-describedby="emailHelp" placeholder="Enter  Name* ">
+            </div>
+
+            <div class="form-group">
+              <label for="Description"><b>Description</b></label>
+              <input type="text" class="form-control col-6" id="Description" aria-describedby="emailHelp" placeholder="Enter Description ">
+            </div>
+            
+            <div class="form-group">
+              <label for="Price"><b>Price</b></label>
+              <input type="number" class="form-control col-6" id="Price" aria-describedby="emailHelp" placeholder="Price* ">
+            </div>
+            <div class="form-group">
+              <label for="Image"><b>Image</b></label>
+              <br>
+              <input type="file" accept="image/*" id="Image" aria-describedby="emailHelp" >
+            </div>
+
+
+            <a href=" ../index.html" class="btn btn-primary"><b style="color:white;">Submit</b></a>
+            <button class="btn btn-primary" type="reset"><b>Reset</b></button>   
+       </form>
+
+
+</body>
+
+
+<footer class="mt-5" style="background-color: rgb(37, 39, 46) !important; ">
+    <div class="container">
+        <div class="row ">
+            <div class="col-sm-6 col-md-4">
+                <div style="color:rgb(207, 206, 206);">
+                    <br>
+                    <p class="mt-2">Main Location
+                        <br> Shop no#13,Shamim Bari Market, Korangi Karachi, Pakistan </p>
+                    <ul class="list-inline mt-5">
+                        <li class="m-0 pl-10 pr-10"> <i style="color:#298f06;" class="fa fa-phone  mr-4 "></i>Contact:
+                            03172896614 </li>
+                        <li class="m-0 pl-10 pr-10"> <i style="color:#298f06;" class="fa fa-globe  mr-4"></i>03373153075
+                        </li>
+                        <li class="m-0 pl-10 pr-10"> <i style="color:#298f06;" class="fa fa-user  mr-4"></i>Owner:Asgher
+                            Ali</li>
+
+                        <li class="m-0 pl-10 pr-10"> <i style="color:#298f06;" class="fa fa-envelope-o  mr-4"></i>
+                            Asharali315.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="color: white;" class="mt-2 col-sm-6 col-md-4">
+                <center>
+                    <h5><b>Useful Links</b></h5>
+                </center>
+                <hr>
+
+            </div>
+            <div class=" pl-10 col-sm-6 col-md-4">
+                <div>
+                    <p style="color:white;" class="mb-10 mt-2"><b>Connect With Us</b></p>
+                    <ul id="links">
+                        <li>
+                            <a href="https://www.facebook.com" target="_blank">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://wa.me/923373153075" target="_blank">
+                                <i class="fa fa-whatsapp ml-4"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div style="background:#386CE3; height:60px; ">
+        <div class="col-md-6">
+            <p style="color:white; padding-top:15px; ">Copyright © Ashar </p>
+        </div>
+    </div>
+
+</footer>
+<a class="back-to-top btn btn-light btn-lg" href="# " style="display: block;"><i class="fa fa-angle-up "></i></a>
+
+</html>
